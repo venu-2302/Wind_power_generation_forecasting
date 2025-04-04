@@ -9,12 +9,12 @@
 
 # Dependencies
 The following Python libraries are required:
-<li>pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-Data Description</li>
+<li>pandas<br>
+numpy<br>
+matplotlib<br>
+seaborn<br>
+scikit-learn<br>
+Data Description<br></li>
 
 The dataset includes the following features:
 
