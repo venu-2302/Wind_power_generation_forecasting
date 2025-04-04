@@ -3,8 +3,8 @@
 The project leverages machine learning techniques to predict power output based on environmental conditions such as temperature, humidity, wind speed, and direction.
 
 # Features
-<li>Data Loading: Reads data from multiple CSV files (Location1.csv, Location2.csv, Location3.csv, and Location4.csv), each representing wind-related metrics for different locations.<br>
-<li>Data Merging: Combines data from all locations into a single dataset for analysis.<br>
+<li><b>Data Loading: Reads data from multiple CSV files (Location1.csv, Location2.csv, Location3.csv, and Location4.csv), each representing wind-related metrics for different locations.<br>
+<li><b>Data Merging: Combines data from all locations into a single dataset for analysis.<br>
 <li>Exploratory Data Analysis (EDA): Displays summary statistics.Identifies missing values and duplicates.<br>
 <li>Data Preprocessing: Encodes categorical variables using one-hot encoding.Drops unnecessary columns like Time.<br>
 <li>Output: Saves the cleaned and merged dataset to merged_locations.csv.<br></li>
