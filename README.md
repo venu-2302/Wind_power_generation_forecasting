@@ -3,11 +3,11 @@
 The project leverages machine learning techniques to predict power output based on environmental conditions such as temperature, humidity, wind speed, and direction.
 
 # Features
-<li><b>Data Loading:</b>b> Reads data from multiple CSV files (Location1.csv, Location2.csv, Location3.csv, and Location4.csv), each representing wind-related metrics for different locations.<br>
-<li><b>Data Merging:</b>b> Combines data from all locations into a single dataset for analysis.<br>
-<li><b>Exploratory Data Analysis (EDA):</li>b></li> Displays summary statistics.Identifies missing values and duplicates.<br>
+<li><b>Data Loading:</b> Reads data from multiple CSV files (Location1.csv, Location2.csv, Location3.csv, and Location4.csv), each representing wind-related metrics for different locations.<br>
+<li><b>Data Merging:</b> Combines data from all locations into a single dataset for analysis.<br>
+<li><b>Exploratory Data Analysis (EDA):</b>Displays summary statistics.Identifies missing values and duplicates.<br>
 <li><b>Data Preprocessing:</b> Encodes categorical variables using one-hot encoding.Drops unnecessary columns like Time.<br>
-<li><b>Output:<b></li> Saves the cleaned and merged dataset to merged_locations.csv.<br></li>
+<li><b>Output:</b>Saves the cleaned and merged dataset to merged_locations.csv.<br></li>
 
 # Dependencies
 The following Python libraries are required:
@@ -26,7 +26,7 @@ The following Python libraries are required:
 <li>Wind direction at 10m and 100m (winddirection_10m, winddirection_100m)<br>
 <li>Wind gusts at 10m (windgusts_10m)<br>
 <li><b>Power Output:</b> Actual wind power generation (Power).<br>
-<li><b></b>Location:</b> Encoded as categorical variables for four locations.
+<li><b>Location:</b> Encoded as categorical variables for four locations.</li>
 
 # Output
 The processed dataset is saved as merged_locations.csv for further use in machine learning models or other analyses.
